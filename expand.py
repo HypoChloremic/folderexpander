@@ -32,6 +32,8 @@ def expand(f, delimiter="/"):
 	return l
 
 if __name__ == '__main__':
-	
-	k = file_expander([os.path.abspath(r"C:\Users\Ali Rassolie\OneDrive\prwork\python\packages")], delimiter="\\")
+	# Demonstrating the use of the method. 
+	# note 
+	#  
+	k = file_expander([r"C:\Users\Ali Rassolie\OneDrive\prwork\python\packages"], delimiter="\\")
 	print('\n'.join(k))
